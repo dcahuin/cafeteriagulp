@@ -1,0 +1,11 @@
+@use 'header/header';
+@use 'header/navegacion';
+$color: blue;
+
+body {
+    background-color: $color;
+    color: $colorText;
+}
+/*
+@use si compila
+@forward no complila                                          
