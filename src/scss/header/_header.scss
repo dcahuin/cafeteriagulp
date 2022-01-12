@@ -1,8 +1,16 @@
+@use 'base/variables' as v;
+
 .header {
-    display: flex;
-    flex-direction: column;
-  }
+  padding: 5rem 0;
   
-  h1 {
-    color: tomato;
+  .container-header{
+    h1{
+      text-align: center;
+      color: v.$white;
+    }
+  }
   } 
+
+  .header-begin {
+    background-image: url(../img/header_inicio.jpg);
+  }
