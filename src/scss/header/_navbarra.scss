@@ -1,6 +1,7 @@
 @use 'base/mixins' as m;
 
 .nav-barra{
+    position: relative;
     display: flex;
     flex-direction: column;
     @include m.tablet{
