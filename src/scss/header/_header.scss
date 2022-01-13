@@ -7,13 +7,30 @@
     min-height:70rem;
   }
 
+  &::before {
+    content: "";
+    background-color: v.$black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6; //valores de 0 a 1
+
+  }
+
   .container-header {
+    position: relative;
     h1 {
       text-align: center;
       color: v.$white;
+      margin-top: 5rem;
+      @include m.tablet {
+        margin-top: 10rem;
+      }
     }
   }
 }
 .header-begin {
-  background-image: url(../img/)
+  background-image: url(../img/header_inicio.webp)
 }
