@@ -2,7 +2,21 @@
 @use 'base/mixins' as m;
 
 .icons {
+    margin-top: 5rem;
     .list-icons {
-        
+        li {
+            img {
+                margin: 0 auto;
+                width: 12rem;
+            }
+
+            p {
+                font-size: 3.2rem;
+                color: v.$primary;
+            }
+        }
+
+        @include
+
     }
 }

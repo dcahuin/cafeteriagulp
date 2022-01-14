@@ -405,3 +405,31 @@ ul {
         align-items: center;
   }
 } 
+
+.nav-primary a {
+  text-align: center;
+  color: #FFF;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.nav-primary a:hover {
+  color: #C39C63;
+}
+.nav-primary a.actived {
+  color: #C39C63;
+}
+
+.nav-barra {
+ul {
+    -ms-flex-align: center;
+        align-items: center;
+  }
+}
+.nav-barra .logo {
+  font-size: 6rem;
+  font-family: "Pacifico", sans-serif;
+  color: #FFF;
+  font-weight: 700;
+}
+
