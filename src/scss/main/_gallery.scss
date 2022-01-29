@@ -1,0 +1,27 @@
+@use 'base/mixins' as m;
+
+.gallery {
+    @include m.grid(2, 2rem);
+    @include m.desktop {
+        @include m.grid(4, 2rem);
+    }
+    .image {
+        img {
+            height: 30rem;
+            width: 30rem;
+            object-fit: cover;
+        }
+
+        @include m.desktop {
+            &:nth-child(1) {
+                grid-row: 1/3;
+
+                img {
+                    height: 62rem;
+                }
+            }
+        }
+    }
+
+    
+}
